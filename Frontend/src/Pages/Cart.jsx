@@ -75,7 +75,7 @@ const Cart = () => {
     }
   };
 
-  if (loading) return <div className="min-h-screen flex items-center justify-center">Loading cart...</div>;
+  if (loading) return <div className="min-h-screen flex items-center justify-center">Loading cart....</div>;
 
   return (
     <div className="min-h-screen bg-gray-50 py-10">
